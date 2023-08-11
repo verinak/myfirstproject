@@ -1,20 +1,3 @@
-# graph : Search Sheet 1, ex 1
-# graph is implemented as a dictionary: keys = nodes, values = list of adjacent nodes
-graph = {
-    'A':['B', 'C'],
-    'B':['D', 'E'],
-    'C':['G', 'H'],
-    'D':['F'],
-    'E':[],
-    'F':['K', 'L'],
-    'G':[],
-    'H':['I', 'J'],
-    'I':[],
-    'J':[],
-    'K':[],
-    'L':[]
-}
-
 def bfs(graph, start, goal):
     visited = []  # list to save visited nodes
     queue = [[start]]
@@ -83,8 +66,4 @@ def dfs(graph, start, goal):
         if not stack:
             print('Depth-First Search found no solution.')
             break
-
-bfs(graph, 'A', 'G')
-dfs(graph, 'A', 'G')
-
 
