@@ -6,3 +6,4 @@ slowly learning Git (hopefully)..
 I'm using old files from last year I'm probably messing them all up
 <br>
 07 Sept fml
+it's 12:44 am here rn..
